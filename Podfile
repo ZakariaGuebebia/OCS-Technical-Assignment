@@ -10,6 +10,9 @@ target 'OCS' do
   pod 'SDWebImage', '~> 5.2.5'
   pod 'Alamofire', '~> 5.4.1'
   pod 'SwiftLint', '~> 0.43.1'
+  pod 'R.swift', '5.0.3'
+  pod 'lottie-ios', '~> 3.2.3'
+
 
   target 'OCSTests' do
     inherit! :search_paths

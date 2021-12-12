@@ -1,0 +1,41 @@
+{
+    "template": "search",
+    "parentalrating": 1,
+    "title": "Recherche",
+    "offset": 1,
+    "limit": "none",
+    "next": "null",
+    "previous": "null",
+    "total": 146,
+    "count": 146,
+    "filter": "null",
+    "sort": "null",
+    "contents": [
+        {
+            "title": [
+                {
+                    "color": null,
+                    "type": "text",
+                    "value": "HCHH 08: MARGARET CHO"
+                }
+            ],
+            "subtitle": "comédie",
+            "subtitlefocus": [
+                "comédie"
+            ],
+            "highlefticon": null,
+            "highrighticon": null,
+            "lowrightinfo": null,
+            "imageurl": "/data_plateforme/program/34740/origin_hchh08margaw0130117_0fdyg.jpg?size=small",
+            "fullscreenimageurl": "/data_plateforme/program/34740/origin_hchh08margaw0130117_0fdyg.jpg?size=large",
+            "id": "HCHH08MARGAW0130117",
+            "detaillink": "/apps/v2/details/programme/HCHH08MARGAW0130117",
+            "duration": "PT28M54S",
+            "playinfoid": {
+                "hd": "45B24DBF-28C0-8841-9FC4-F8B315F848CB",
+                "sd": "45B24DBF-28C0-8841-9FC4-F8B315F848CB",
+                "uhd": null
+            }
+        }
+    ]
+}

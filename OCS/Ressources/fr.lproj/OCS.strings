@@ -1,0 +1,12 @@
+/*
+ OCS.strings
+ OCS
+
+ Created by Zakaria on 12/12/2021.
+
+ */
+"com.ocs.zak.search" = "film, série, magazine...";
+"com.ocs.zak.ok" = "OK";
+    //<!-- Errors -->
+"com.ocs.zak.Error.unexpected" = "Oops désolé - Une erreur s'est produite, veuillez réessayer plus tard";
+"com.ocs.zak.Alert.Error" = "Error";
