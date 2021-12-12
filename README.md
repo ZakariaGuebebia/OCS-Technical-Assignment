@@ -1,2 +1,2 @@
-# OCS-Technical-Assignment
-OCS Technical Assignment
+# OCS
+Technical Assignment 
