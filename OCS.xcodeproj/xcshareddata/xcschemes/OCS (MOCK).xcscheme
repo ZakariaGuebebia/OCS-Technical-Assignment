@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "047E7396275BB04D00824A07"
+               BlueprintIdentifier = "043792ED27668BE6004E61F5"
                BuildableName = "OCSTests.xctest"
                BlueprintName = "OCSTests"
                ReferencedContainer = "container:OCS.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04487B7F2765288B00E0C0BC"
+               BlueprintIdentifier = "043792DA27668BD8004E61F5"
                BuildableName = "OCSUITests.xctest"
                BlueprintName = "OCSUITests"
                ReferencedContainer = "container:OCS.xcodeproj">
@@ -56,6 +56,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "043792ED27668BE6004E61F5"
+               BuildableName = "OCSTests.xctest"
+               BlueprintName = "OCSTests"
+               ReferencedContainer = "container:OCS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "043792DA27668BD8004E61F5"
+               BuildableName = "OCSUITests.xctest"
+               BlueprintName = "OCSUITests"
+               ReferencedContainer = "container:OCS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
