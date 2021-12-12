@@ -2,7 +2,7 @@
 //  DetailsEndPoint.swift
 //  OCS
 //
-//  Created by Zakaria on 8/12/2021.
+//  Created by Zakaria on 12/12/2021.
 //
 
 import Foundation

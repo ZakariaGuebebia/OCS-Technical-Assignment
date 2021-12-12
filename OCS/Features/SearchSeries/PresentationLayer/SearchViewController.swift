@@ -75,6 +75,12 @@ extension SearchViewController: UICollectionViewDelegate, UICollectionViewDataSo
         cell.configureCell(serie: serie)
         return cell
     }
+    func collectionView(_ collectionView: UICollectionView,
+                        didSelectItemAt indexPath: IndexPath) {
+        let serie = searchViewModel.series[indexPath.row]
+        self.coordinator?.showDetails(serie: serie)
+    }
+
 }
 extension SearchViewController: UICollectionViewDelegateFlowLayout {
 
