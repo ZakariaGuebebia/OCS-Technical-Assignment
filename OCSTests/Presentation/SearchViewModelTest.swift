@@ -1,9 +1,9 @@
-//
-//  SearchViewModelTest.swift
-//  OCSTests
-//
-//  Created by Zakaria on 1112/12/2021.
-//
+    //
+    //  SearchViewModelTest.swift
+    //  OCSTests
+    //
+    //  Created by Zakaria on 1112/12/2021.
+    //
 
 import XCTest
 import Combine
@@ -22,22 +22,26 @@ class SearchViewModelTest: XCTestCase {
     func testSuccessfully_searchSeries() throws {
             // This is an example of a functional test case.
             // Use XCTAssert and related functions to verify your tests produce the correct results.
+            // given
         let usecase = MockSearchSeriesUseCase(fetchSeriesUseCaseType: .success)
         usecase.successExpectation = expectation(description: "did search series successfully")
         let viewModel = OCSSearchSeriesViewModel(searchSeriesUseCase: usecase)
-
+            //when
         viewModel.getSeriesByName(name: "some title")
+            //then
         waitForExpectations(timeout: 2, handler: nil)
     }
 
     func testFailuure_searchSeries() throws {
             // This is an example of a functional test case.
             // Use XCTAssert and related functions to verify your tests produce the correct results.
+            // given
         let usecase = MockSearchSeriesUseCase(fetchSeriesUseCaseType: .failure)
         usecase.failureExpectation = expectation(description: "error searching for serie")
         let viewModel = OCSSearchSeriesViewModel(searchSeriesUseCase: usecase)
-
+            //when
         viewModel.getSeriesByName(name: "some title")
+            //then
         waitForExpectations(timeout: 2, handler: nil)
     }
 
