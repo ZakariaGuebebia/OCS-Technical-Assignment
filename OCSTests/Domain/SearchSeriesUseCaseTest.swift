@@ -1,4 +1,4 @@
-    //
+//
     //  SearchSeriesUseCaseTest.swift
     //  OCSTests
     //

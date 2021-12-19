@@ -1,4 +1,4 @@
-    //
+//
     //  SearchViewModelTest.swift
     //  OCSTests
     //
@@ -26,9 +26,9 @@ class SearchViewModelTest: XCTestCase {
         let usecase = MockSearchSeriesUseCase(fetchSeriesUseCaseType: .success)
         usecase.successExpectation = expectation(description: "did search series successfully")
         let viewModel = OCSSearchSeriesViewModel(searchSeriesUseCase: usecase)
-            //when
+            // when
         viewModel.getSeriesByName(name: "some title")
-            //then
+            // then
         waitForExpectations(timeout: 2, handler: nil)
     }
 
@@ -39,9 +39,9 @@ class SearchViewModelTest: XCTestCase {
         let usecase = MockSearchSeriesUseCase(fetchSeriesUseCaseType: .failure)
         usecase.failureExpectation = expectation(description: "error searching for serie")
         let viewModel = OCSSearchSeriesViewModel(searchSeriesUseCase: usecase)
-            //when
+            // when
         viewModel.getSeriesByName(name: "some title")
-            //then
+            // then
         waitForExpectations(timeout: 2, handler: nil)
     }
 

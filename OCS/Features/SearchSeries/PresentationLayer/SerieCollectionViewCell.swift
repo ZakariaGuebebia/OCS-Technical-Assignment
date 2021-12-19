@@ -18,8 +18,8 @@ class SerieCollectionViewCell: UICollectionViewCell {
     }
 
     func configureCell(serie: Serie) {
-        self.titleLabel.setAttributedText(text: serie.title ?? "", lineSpace: 0, font: OCSFonts().sfProTextBoldFontName, size: 16, forgroundColor: R.color.primaryTextColor())
-        self.subtitleLabel.setAttributedText(text: serie.subtitle ?? "", lineSpace: 0, font: OCSFonts().sfProDisplayRegular, size: 12, forgroundColor: R.color.primaryTextColor())
+        self.titleLabel.setAttributedText(text: serie.title ?? "", lineSpace: 0, font: OCSFonts().sfProTextBoldFontName, size: 12, forgroundColor: R.color.primaryTextColor())
+        self.subtitleLabel.setAttributedText(text: serie.subtitle ?? "", lineSpace: 0, font: OCSFonts().sfProDisplayRegular, size: 10, forgroundColor: R.color.primaryTextColor())
         self.posterImageView.setImage(withString: ApiClient.baseURL()+(serie.imageurl ?? ""), placeholderImage: UIImage(named: "ic-placeHolder"))
     }
 
