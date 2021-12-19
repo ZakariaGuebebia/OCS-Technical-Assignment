@@ -8,7 +8,7 @@ I'm a big fan of Clean architecture, as it's modular and easily extendable, a wh
 # Screenshots 📷
 <p align="center">
   <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation).png" width="200">
-  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch).png" width="200">
+  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch).png" width="400">
     <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation)%20-%20search.png" width="200">
 </p>
 
