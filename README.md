@@ -8,6 +8,10 @@ I'am a big fan of Clean architecture, as it's modular and easily extandable,
 a while ago i was exprementing with it and made this [presentation](https://drive.google.com/file/d/1E4D63eeJg9rzZQNvLWH9ECSYU6wbxkJM/) to brainstorm with my colleages at work about it. feel free to check it out.
 
 # Screenshots 📷
+<p align="center">
+  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation).png" width="200">
+  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch)png.png" width="200">
+</p>
 
 # Project Architecture👷‍♀️👷‍♂️
 ### Communication between layers
@@ -18,7 +22,7 @@ a while ago i was exprementing with it and made this [presentation](https://driv
 5. Information flows back to the UI where we display the data fetched from data sources.
 
 I made a diagram to show the flow of the data between the three layers(data, domain , presentation)
-![data flow diagram](screenshots/dataFlowDiagram.png )
+![data flow diagram](https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/dataFlowDiagram.png)
 
 # To be added ➕
 * more testing
