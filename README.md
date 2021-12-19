@@ -3,7 +3,7 @@ Hello there, In this project I tried showcasing how to build an iOS Application 
 
 This side project was delivered in the context of one-week assignment.
 
-I'm a big fan of Clean architecture, as it's modular and easily extendable, a while ago I was experimenting with it and made this [presentation] (https://drive.google.com/file/d/1E4D63eeJg9rzZQNvLWH9ECSYU6wbxkJM/) to brainstorm with my colleagues at work about it. feel free to check it out.
+I'm a big fan of Clean architecture, as it's modular and easily extendable, a while ago I was experimenting with it and made this [presentation](https://drive.google.com/file/d/1E4D63eeJg9rzZQNvLWH9ECSYU6wbxkJM/) to brainstorm with my colleagues at work about it. feel free to check it out.
 
 # Screenshots 📷
 <p align="center">
