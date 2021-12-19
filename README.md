@@ -1,16 +1,15 @@
 # About OCS App 🍊🍿🎬
-Hello there ,
-In this project I tried showcasing how to build an iOS Application with clean architecture and MVVM-C using Combine and UIkit. This App is using the [OCS API](https://api.ocs.fr/) as a remote data source.
+Hello there, In this project I tried showcasing how to build an iOS Application with clean architecture and MVVM-C using Combine and UIkit. This App is using the OCS API as a remote data source.
 
-This side Project was dilleverd in the context of one week assignement.
+This side project was delivered in the context of one-week assignment.
 
-I'am a big fan of Clean architecture, as it's modular and easily extandable,
-a while ago i was exprementing with it and made this [presentation](https://drive.google.com/file/d/1E4D63eeJg9rzZQNvLWH9ECSYU6wbxkJM/) to brainstorm with my colleages at work about it. feel free to check it out.
+I'm a big fan of Clean architecture, as it's modular and easily extendable, a while ago I was experimenting with it and made this presentation to brainstorm with my colleagues at work about it. feel free to check it out.
 
 # Screenshots 📷
 <p align="center">
   <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation).png" width="200">
-  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch)png.png" width="200">
+  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch).png" width="200">
+    <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch)%20-%20search.png" width="200">
 </p>
 
 # Project Architecture👷‍♀️👷‍♂️
