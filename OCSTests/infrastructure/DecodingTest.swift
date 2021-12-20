@@ -13,19 +13,6 @@ class DecodingTest: XCTestCase {
 
     var cancellable = CancelBag()
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
     func testData_integrity() {
             // given
         let repository = MockSearchSeriesRepository(mockedDataSource: LocalSeriesDataSource())
@@ -50,7 +37,7 @@ class DecodingTest: XCTestCase {
             // Wait for the expectation to be fullfilled, or time out
             // after 2 seconds. This is where the test runner will pause.
             // then
-        waitForExpectations(timeout: 1, handler: nil)
+        waitForExpectations(timeout: 2, handler: nil)
 
     }
 
