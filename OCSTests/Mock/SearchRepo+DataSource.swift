@@ -33,3 +33,9 @@ class FailureMockedSeriesDataSource: SearchSeriesDataSource {
         return  Future { promise in promise(.failure(OCSError(message: "generalError", code: ErrorCodeType.generalError.rawValue)))}
     }
 }
+
+class LocalSeriesDataSource: SearchSeriesDataSource {
+    func getSeriesByName(name: String) -> Future<(([SerieDTO], [Serie])), Error> {
+        return ApiRequestHandler.loadLocalData(endPoint: SearchEndPoint.searchSeriesByName(name: "any name"), decoder: JSONDecoder())
+    }
+}
