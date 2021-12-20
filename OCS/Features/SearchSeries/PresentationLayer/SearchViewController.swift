@@ -8,22 +8,32 @@
 import UIKit
 
 class SearchViewController: UIViewController, UIGestureRecognizerDelegate {
-
+        // MARK: - IBOutlet
     @IBOutlet weak var OCSLogoImageView: UIImageView!
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var placeHolderImageView: UIImageView!
     @IBOutlet weak var seriesCollectionView: UICollectionView!
-
-    var searchViewModel: SearchSeriesViewModel = OCSSearchSeriesViewModel()
-    var cancellable = CancelBag()
-
+        // MARK: - Properties
+    private var searchViewModel: SearchSeriesViewModel = OCSSearchSeriesViewModel()
+    private var cancellable = CancelBag()
     var coordinator: MainCoordinator?
-
     // We keep track of the pending work item as a property
     private var pendingRequestWorkItem: DispatchWorkItem?
     private var searchThrusHold: Int = 500 // ms
     private var fadeAnimationDuration: Double = 2.0
 
+        // MARK: - LifeCycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        bind(to: searchViewModel)
+        initSearchBar()
+        initseriesCollectionView()
+        fadeInView(view: OCSLogoImageView)
+        fadeInView(view: placeHolderImageView)
+        assDismisssKeyboardTapGesture()
+    }
+
+        // MARK: - FilePrivate
     fileprivate func fadeInView(view: UIView) {
         view.alpha = 0.0
             // fade in
@@ -41,36 +51,36 @@ class SearchViewController: UIViewController, UIGestureRecognizerDelegate {
         view.endEditing(true)
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        bind(to: searchViewModel)
-        initSearchBar()
-        fadeInView(view: OCSLogoImageView)
-        fadeInView(view: placeHolderImageView)
-        searchBar.delegate = self
+    fileprivate func initseriesCollectionView() {
         seriesCollectionView.registerCellNib(SerieCollectionViewCell.self)
         seriesCollectionView.delegate = self
         seriesCollectionView.dataSource = self
+    }
 
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyBoard))
+    fileprivate func assDismisssKeyboardTapGesture() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self,
+                                                                 action: #selector(dismissKeyBoard))
         tap.delegate = self
-            // shouldReceiveTouch on UITableViewCellContentView
         tap.cancelsTouchesInView = false
         self.view.addGestureRecognizer(tap)
-            // Do any additional setup after loading the view.
     }
 
 }
+    // MARK: - SearchViewControllerExtensions
+
 extension SearchViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView,
+                        numberOfItemsInSection section: Int) -> Int {
         searchViewModel.series.count
     }
 
     func collectionView(_ collectionView: UICollectionView,
                         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell: SerieCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: R.reuseIdentifier.serieCollectionViewCell,
-                                                                               for: indexPath) as! SerieCollectionViewCell
+        let cell: SerieCollectionViewCell = collectionView
+            .dequeueReusableCell(withReuseIdentifier: R.reuseIdentifier
+                                    .serieCollectionViewCell,
+                                 for: indexPath) as! SerieCollectionViewCell
         let serie = searchViewModel.series[indexPath.row]
         cell.configureCell(serie: serie)
         return cell
@@ -122,7 +132,6 @@ extension SearchViewController: UISearchBarDelegate {
         self.view.endEditing(true)
     }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-            //        searchSerie(searchBar.text)
         searchBar.resignFirstResponder()
     }
     fileprivate func showPlaceHolderImage() {
@@ -131,7 +140,6 @@ extension SearchViewController: UISearchBarDelegate {
     }
 
     func searchSerie(_ searchInput: String) {
-            //        guard let searchInput = searchInput else { return }
         if !searchInput.isEmpty {
             hideActivityIndicator()
             showActivityIndicator()

@@ -14,18 +14,20 @@ class DetailsDTO: DataModel, Codable {
     let isbookmarkable: Bool?
     let detaillink: String?
     let seasons: [Season]?
+    let pitch: String?
 
-    init(title: [Title]?, id: String?, isbookmarkable: Bool?, detaillink: String?, seasons: [Season]?) {
+    init(title: [Title]?, id: String?, isbookmarkable: Bool?, detaillink: String?, seasons: [Season]?, pitch: String?) {
         self.title = title
         self.id = id
         self.isbookmarkable = isbookmarkable
         self.detaillink = detaillink
         self.seasons = seasons
+        self.pitch = pitch
     }
 
     override func toDomain() -> Details? {
         // Map Data to Domain
-        return Details(title: title?.first?.value, id: id, isbookmarkable: isbookmarkable, detaillink: detaillink, pitch: seasons?.first?.pitch)
+        return Details(title: title?.first?.value, id: id, isbookmarkable: isbookmarkable, detaillink: detaillink, pitch: pitch ?? seasons?.first?.pitch)
     }
 }
 
