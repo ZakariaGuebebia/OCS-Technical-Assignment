@@ -39,7 +39,7 @@ enum DetailsEndPoint: EndPointType {
     }
 
     var mockFileName: String? {
-        return nil
+        return "Details"
     }
 
 }

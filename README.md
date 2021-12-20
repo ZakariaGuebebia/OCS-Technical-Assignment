@@ -5,6 +5,17 @@ This side project was delivered in the context of one-week assignment.
 
 I'm a big fan of Clean architecture, as it's modular and easily extendable, a while ago I was experimenting with it and made this [presentation](https://drive.google.com/file/d/1E4D63eeJg9rzZQNvLWH9ECSYU6wbxkJM/) to brainstorm with my colleagues at work about it. feel free to check it out.
 
+In this App you will mainly find:
+
+* Three configuration environnement (MOCK, DEV and STAGE)
+* Combine
+* UIKit
+* UnitTest/UITest
+* Storyboards
+* Localisation
+* iPad Size adaptation
+* Dark Mode Support
+
 # Screenshots 📷
 <p align="center">
   <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation).png" width="200">
@@ -25,6 +36,7 @@ I made a diagram to show the flow of the data between the three layers(data, dom
 
 # To be added ➕
 * more testing
+* TV OS version
 
 <br />
 

@@ -1,0 +1,147 @@
+{
+  "template": "detail",
+  "parentalrating": 1,
+  "categoryID": 17,
+  "contents": {
+    "parentalrating": 1,
+    "isbookmarkable": true,
+    "isdownloadable": true,
+    "number": null,
+    "title": [
+      {
+        "type": "text",
+        "value": "HCHH 08: MARGARET CHO",
+        "color": null
+      }
+    ],
+    "duration": "PT28M54S",
+    "availability": [
+      {
+        "type": "picto",
+        "value": "clock",
+        "color": null
+      },
+      {
+        "type": "text",
+        "value": "dispo 99j",
+        "color": null
+      }
+    ],
+    "summary": "Née à San Francisco, Margaret Cho a débuté sa carrière dans les bars, où elle présentait ses sketchs de stand-up. C'est donc rompue à l'exercice qu'elle se présente sur scène pour une demi-heure de spectacle, racontant les anecdotes de sa vie quotidienne, comme sa rencontre avec Prince, avec un style inimitable.",
+    "highlefticon": [
+      "hbo"
+    ],
+    "highrighticon": null,
+    "subtitle": null,
+    "subtitlefocus": null,
+    "pitch": "Née à San Francisco, Margaret Cho a débuté sa carrière dans les bars, où elle présentait ses sketchs de stand-up. C'est donc rompue à l'exercice qu'elle se présente sur scène pour une demi-heure de spectacle, racontant les anecdotes de sa vie quotidienne, comme sa rencontre avec Prince, avec un style inimitable.",
+    "bannerinfo": [
+      {
+        "type": "text",
+        "value": "VOST",
+        "color": "#9a9a9a"
+      },
+      {
+        "type": "picto",
+        "value": "csa1",
+        "color": null
+      },
+      {
+        "type": "text",
+        "value": "0h28",
+        "color": "#9a9a9a"
+      }
+    ],
+    "description": [
+      [
+        "spectacle"
+      ],
+      [
+        "pays : Etats-Unis",
+        "réalisé par Keith Truesdell"
+      ],
+      [
+        "année de production : 1994",
+        "genre : comédie"
+      ],
+      [
+        "Avec Margaret Cho (Herself)"
+      ]
+    ],
+    "imageurl": "/data_plateforme/program/34740/origin_hchh08margaw0130117_0fdyg.jpg?size=medium",
+    "fullscreenimageurl": "/data_plateforme/program/34740/origin_hchh08margaw0130117_0fdyg.jpg?size=large",
+    "linearplanning": null,
+    "acontents": [
+      {
+        "type": "corner",
+        "description": [
+          {
+            "type": "text",
+            "value": "tout l'univers HBO",
+            "color": "#FFFFFF"
+          }
+        ],
+        "link": "/apps/v2/rubriques/univershbo",
+        "imageurl": "/data_plateforme/categories/categorie-hbo.jpg",
+        "contents": [
+          {
+            "title": [
+              {
+                "type": "text",
+                "value": "GAME OF THRONES",
+                "color": null
+              }
+            ],
+            "subtitle": "saisons 1 à 8",
+            "subtitlefocus": null,
+            "playinfoid": {
+              "sd": null,
+              "hd": null,
+              "uhd": null
+            },
+            "duration": "PT1H15M25S",
+            "playinfo": {
+              "tokenurl": null,
+              "url": null
+            },
+            "highrighticon": null,
+            "highlefticon": null,
+            "lowrightinfo": null,
+            "imageurl": "/data_plateforme/saison/1691/origin_gameofthr08w0149292_ni72q.jpg?size=small",
+            "fullscreenimageurl": "/data_plateforme/saison/1691/origin_gameofthr08w0149292_ni72q.jpg?size=large",
+            "detaillink": "/apps/v2/details/serie/PSGAMEOFTHRW0058624",
+            "id": "GAMEOFT0806W0149298"
+          },
+          {
+            "title": [
+              {
+                "type": "text",
+                "value": "RUN",
+                "color": null
+              }
+            ],
+            "subtitle": "saison 1",
+            "subtitlefocus": null,
+            "playinfoid": {
+              "sd": null,
+              "hd": null,
+              "uhd": null
+            },
+            "duration": "PT23M39S",
+            "playinfo": {
+              "tokenurl": null,
+              "url": null
+            },
+            "highrighticon": null,
+            "highlefticon": null,
+            "lowrightinfo": null,
+            "imageurl": "/data_plateforme/saison/1854/origin_run01xxxxxxw0163260_o16se.jpg?size=small",
+            "fullscreenimageurl": "/data_plateforme/saison/1854/origin_run01xxxxxxw0163260_o16se.jpg?size=large",
+            "detaillink": "/apps/v2/details/serie/PSRUNXXXXXXW0163262",
+            "id": "RUN01XXXX07W0163269"
+          }
+        ]
+      }
+    ]
+  }
+}

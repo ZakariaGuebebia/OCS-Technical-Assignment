@@ -67,6 +67,7 @@
 		048160EE275A238100179229 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160ED275A238000179229 /* R.generated.swift */; };
 		0483D962275B69AC00AC53F9 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160C6275A122A00179229 /* ErrorHandler.swift */; };
 		04AFF6EA27708EF600501F36 /* DecodingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFF6E927708EF600501F36 /* DecodingTest.swift */; };
+		04AFF6EC27709EFD00501F36 /* Details.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AFF6EB27709EFD00501F36 /* Details.json */; };
 		04BD2EBF275D2A5C004A6799 /* OCSResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD2EBE275D2A5C004A6799 /* OCSResult.swift */; };
 		04E779F32760A8CA00C83CB6 /* DetailsEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E779F22760A8CA00C83CB6 /* DetailsEndPoint.swift */; };
 		04F3FBF02763D7E100EDEF81 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F3FBEF2763D7DE00EDEF81 /* SFProDisplay-Regular.ttf */; };
@@ -160,6 +161,7 @@
 		048160E6275A19E100179229 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/OCS.strings; sourceTree = "<group>"; };
 		048160ED275A238000179229 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		04AFF6E927708EF600501F36 /* DecodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingTest.swift; sourceTree = "<group>"; };
+		04AFF6EB27709EFD00501F36 /* Details.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Details.json; sourceTree = "<group>"; };
 		04BD2EBE275D2A5C004A6799 /* OCSResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCSResult.swift; sourceTree = "<group>"; };
 		04E779F22760A8CA00C83CB6 /* DetailsEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsEndPoint.swift; sourceTree = "<group>"; };
 		04F3FBEE2763D7DE00EDEF81 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Bold.ttf"; sourceTree = "<group>"; };
@@ -495,6 +497,7 @@
 			isa = PBXGroup;
 			children = (
 				047D630F27653AE200D18D01 /* Search.json */,
+				04AFF6EB27709EFD00501F36 /* Details.json */,
 				047D631027653AE200D18D01 /* SizeHelper.swift */,
 				047D631127653AE200D18D01 /* OCSLoader.json */,
 				047D631227653AE200D18D01 /* Font.swift */,
@@ -739,6 +742,7 @@
 				047C9681275902D200EF7D9D /* LaunchScreen.storyboard in Resources */,
 				04F3FBF12763D7E400EDEF81 /* SFProText-Bold.ttf in Resources */,
 				047C967E275902D200EF7D9D /* Assets.xcassets in Resources */,
+				04AFF6EC27709EFD00501F36 /* Details.json in Resources */,
 				047D631D27653AE200D18D01 /* Search.json in Resources */,
 				043792B327668816004E61F5 /* Details.storyboard in Resources */,
 			);
