@@ -18,9 +18,11 @@ In this App you will mainly find:
 
 # Screenshots 📷
 <p align="center">
-  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation).png" width="200">
-  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch).png" width="400">
-    <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation)%20-%20search.png" width="200">
+  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation).png" width="100">
+  <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPad%20Pro%20(9.7-inch).png" width="200">
+    <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation)%20-%20search.png" width="100">
+        <img src="https://github.com/ZakariaGuebebia/OCS-Technical-Assignment/blob/develop/OCS/Ressources/Screenshots/Simulator%20Screen%20Shot%20-%20Apple%20TV%204K.png" width="400">
+   
 </p>
 
 # Project Architecture👷‍♀️👷‍♂️
