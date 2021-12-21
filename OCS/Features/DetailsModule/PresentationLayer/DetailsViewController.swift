@@ -17,13 +17,17 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var subtitleLabel: UILabel!
     @IBOutlet weak var pitchLabel: UILabel!
     @IBOutlet weak var playVideoButton: UIButton!
+    @IBOutlet weak var tvScrollView: UIScrollView!
 
         // MARK: - Properties
     var coordinator: MainCoordinator?
     var viewModel: DetailsViewModel?
     private var cancellable = CancelBag()
+    private var videoURL: String = "https://bitmovin-a.akamaihd.net/content/bbb/stream.m3u8"
         // MARK: - LifeCycle
+
     override func viewDidLoad() {
+
         super.viewDidLoad()
         bind(to: viewModel)
         titleLabel.setAttributedText(text: viewModel?.serie?.title ?? "",
@@ -34,13 +38,22 @@ class DetailsViewController: UIViewController {
                                         size: 18, forgroundColor: R.color.primaryTextColor())
         fullScreenImageView.setImage(withString: viewModel?.serie?.fullscreenimageurl ?? "",
                                      placeholderImage: UIImage(named: "ic-OCS_logo"))
+#if os(tvOS)
+        enableTvScroll()
+#endif
         showActivityIndicator()
         viewModel?.showDetails()
     }
+        // MARK: - Fileprivate
+
+    fileprivate func enableTvScroll() {
+        tvScrollView.panGestureRecognizer.allowedTouchTypes = [NSNumber(value: UITouch.TouchType.indirect.rawValue)]
+    }
+
         // MARK: - IBAction
 
     @IBAction func playVideo(_ sender: Any) {
-        coordinator?.presentVideoPlayer()
+        coordinator?.presentVideoPlayer(urlString: videoURL)
     }
 }
     // MARK: - DetailsViewControllerExtensions

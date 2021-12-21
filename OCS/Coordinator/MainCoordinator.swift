@@ -40,8 +40,8 @@ class MainCoordinator: Coordinator {
         navigationController.pushViewController(vc, animated: false)
     }
     
-    func presentVideoPlayer() {
-        let viewModel = SerieViewModel(url: "https://bitmovin-a.akamaihd.net/content/bbb/stream.m3u8")
+    func presentVideoPlayer(urlString: String) {
+        let viewModel = PlayerViewModel(url: urlString)
         guard let videoURL = URL(string: viewModel.url) else {return}
         let player = AVPlayer(url: videoURL)
         let playerViewController = AVPlayerViewController()

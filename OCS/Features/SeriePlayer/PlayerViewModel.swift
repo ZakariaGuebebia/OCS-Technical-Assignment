@@ -11,7 +11,7 @@ protocol VideoPlayerViewModel {
     var url: String { get set }
 }
 
-class SerieViewModel: VideoPlayerViewModel {
+class PlayerViewModel: VideoPlayerViewModel {
 
     var url: String
 

@@ -14,18 +14,20 @@ class ApiClient: NSObject {
     }
     
     fileprivate class func serverParameters() -> ServerParameters {
-        
+#if os(iOS)
         #if DEV
         return ServerParameters.devParameters
         #elseif STAGE
         return ServerParameters.stagingParameters
-        #elseif PROD
-        return ServerParameters.prodParameters
         #elseif MOCK
         return ServerParameters.mockParameters
         #else
         fatalError("The environment is not specified")
         #endif
+#else
+        return ServerParameters.devParameters
+#endif
+        
     }
     
 }

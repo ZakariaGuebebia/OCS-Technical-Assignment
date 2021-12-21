@@ -22,11 +22,9 @@
 		043792BA27668816004E61F5 /* SerieDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792A227668816004E61F5 /* SerieDTO.swift */; };
 		043792BB27668816004E61F5 /* OCSSearchSeriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792A427668816004E61F5 /* OCSSearchSeriesRepository.swift */; };
 		043792BC27668816004E61F5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792A627668816004E61F5 /* SearchViewController.swift */; };
-		043792BD27668816004E61F5 /* SerieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043792A727668816004E61F5 /* SerieCollectionViewCell.xib */; };
 		043792BE27668816004E61F5 /* SerieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792A827668816004E61F5 /* SerieCollectionViewCell.swift */; };
 		043792BF27668816004E61F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043792A927668816004E61F5 /* Main.storyboard */; };
 		043792C027668816004E61F5 /* SearchSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792AB27668816004E61F5 /* SearchSeriesViewModel.swift */; };
-		043792C127668816004E61F5 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043792AC27668816004E61F5 /* Main.strings */; };
 		0437930127668DDA004E61F5 /* Serie+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792C427668BBF004E61F5 /* Serie+Stub.swift */; };
 		0437930227668DDF004E61F5 /* SearchRepo+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792C527668BBF004E61F5 /* SearchRepo+DataSource.swift */; };
 		0437930327668DE4004E61F5 /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792C627668BBF004E61F5 /* UseCase.swift */; };
@@ -35,6 +33,8 @@
 		0437930627668DF2004E61F5 /* SearchViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792CB27668BBF004E61F5 /* SearchViewModelTest.swift */; };
 		0437930727668DF7004E61F5 /* OCSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792FC27668CED004E61F5 /* OCSUITestsLaunchTests.swift */; };
 		0437930827668DFB004E61F5 /* OCSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792FD27668CED004E61F5 /* OCSUITests.swift */; };
+		043A0A892772106700DECD0D /* SerieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043792A727668816004E61F5 /* SerieCollectionViewCell.xib */; };
+		043A0A8A277212B000DECD0D /* tvSerieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2A5DC27712C4200C399E1 /* tvSerieCollectionViewCell.swift */; };
 		047C9675275902D000EF7D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C9674275902D000EF7D9D /* AppDelegate.swift */; };
 		047C9677275902D000EF7D9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C9676275902D000EF7D9D /* SceneDelegate.swift */; };
 		047C967E275902D200EF7D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C967D275902D200EF7D9D /* Assets.xcassets */; };
@@ -68,10 +68,71 @@
 		0483D962275B69AC00AC53F9 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160C6275A122A00179229 /* ErrorHandler.swift */; };
 		04AFF6EA27708EF600501F36 /* DecodingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFF6E927708EF600501F36 /* DecodingTest.swift */; };
 		04AFF6EC27709EFD00501F36 /* Details.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AFF6EB27709EFD00501F36 /* Details.json */; };
+		04B2A587277104B000C399E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2A586277104B000C399E1 /* AppDelegate.swift */; };
+		04B2A58E277104B100C399E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B2A58D277104B100C399E1 /* Assets.xcassets */; };
+		04B2A591277104B100C399E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2A58F277104B100C399E1 /* LaunchScreen.storyboard */; };
+		04B2A59B2771068A00C399E1 /* SearchSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792AB27668816004E61F5 /* SearchSeriesViewModel.swift */; };
+		04B2A59C2771069500C399E1 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D636B276542B500D18D01 /* MainCoordinator.swift */; };
+		04B2A59D2771074F00C399E1 /* SerieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792A827668816004E61F5 /* SerieCollectionViewCell.swift */; };
+		04B2A59E277107C900C399E1 /* OCS.strings in Resources */ = {isa = PBXBuildFile; fileRef = 048160E5275A19E000179229 /* OCS.strings */; };
+		04B2A59F2771081200C399E1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D636C276542B500D18D01 /* Coordinator.swift */; };
+		04B2A5A02771081B00C399E1 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792A027668816004E61F5 /* Serie.swift */; };
+		04B2A5A12771082800C399E1 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D631227653AE200D18D01 /* Font.swift */; };
+		04B2A5A22771083A00C399E1 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D630827653AE200D18D01 /* UIViewControllerExtension.swift */; };
+		04B2A5A32771084A00C399E1 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D631327653AE200D18D01 /* AppStoryboard.swift */; };
+		04B2A5A52771087400C399E1 /* DomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160D8275A161C00179229 /* DomainModel.swift */; };
+		04B2A5A62771088300C399E1 /* UIcollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D630A27653AE200D18D01 /* UIcollectionViewExtension.swift */; };
+		04B2A5A82771089D00C399E1 /* SearchSeriesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437929F27668816004E61F5 /* SearchSeriesUseCase.swift */; };
+		04B2A5A9277108A700C399E1 /* SerieDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792A227668816004E61F5 /* SerieDTO.swift */; };
+		04B2A5AA277108AF00C399E1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160D5275A15C300179229 /* DataModel.swift */; };
+		04B2A5AB277108C000C399E1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D630B27653AE200D18D01 /* StringExtension.swift */; };
+		04B2A5AD2771090500C399E1 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D630627653AE200D18D01 /* UIImageViewExtension.swift */; };
+		04B2A5AE27710EC700C399E1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437929827668816004E61F5 /* DetailsViewController.swift */; };
+		04B2A5B027710FC400C399E1 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437929727668816004E61F5 /* DetailsViewModel.swift */; };
+		04B2A5B127710FCF00C399E1 /* SearchSeriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437929E27668816004E61F5 /* SearchSeriesRepository.swift */; };
+		04B2A5B3277110B900C399E1 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437929A27668816004E61F5 /* PlayerViewModel.swift */; };
+		04B2A5B4277110C500C399E1 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D630727653AE200D18D01 /* UILabelExtension.swift */; };
+		04B2A5B5277110D600C399E1 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F3FBEF2763D7DE00EDEF81 /* SFProDisplay-Regular.ttf */; };
+		04B2A5B6277110D600C399E1 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F3FBEE2763D7DE00EDEF81 /* SFProText-Bold.ttf */; };
+		04B2A5B82771117A00C399E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C967D275902D200EF7D9D /* Assets.xcassets */; };
+		04B2A5B9277111A200C399E1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D631427653AE200D18D01 /* LoadingView.swift */; };
+		04B2A5BA277111EA00C399E1 /* SizeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D631027653AE200D18D01 /* SizeHelper.swift */; };
+		04B2A5BB277111FD00C399E1 /* OCSSearchSeriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043792A427668816004E61F5 /* OCSSearchSeriesRepository.swift */; };
+		04B2A5BD2771121000C399E1 /* SearchEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E7381275BA25100824A07 /* SearchEndPoint.swift */; };
+		04B2A5BE2771121300C399E1 /* DetailsEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E779F22760A8CA00C83CB6 /* DetailsEndPoint.swift */; };
+		04B2A5C22771121D00C399E1 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160C6275A122A00179229 /* ErrorHandler.swift */; };
+		04B2A5C32771121D00C399E1 /* NetworkParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160C8275A122A00179229 /* NetworkParameters.swift */; };
+		04B2A5C42771121D00C399E1 /* ApiRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160CA275A122A00179229 /* ApiRequestHandler.swift */; };
+		04B2A5C52771121D00C399E1 /* OCSResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD2EBE275D2A5C004A6799 /* OCSResult.swift */; };
+		04B2A5C62771121D00C399E1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160C4275A122A00179229 /* APIClient.swift */; };
+		04B2A5C72771121D00C399E1 /* JsonDecoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160CB275A122A00179229 /* JsonDecoderExtension.swift */; };
+		04B2A5C82771121D00C399E1 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048160C5275A122A00179229 /* EndPointType.swift */; };
+		04B2A5C92771122600C399E1 /* UrlRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D630C27653AE200D18D01 /* UrlRequestExtension.swift */; };
+		04B2A5CA2771122600C399E1 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D630D27653AE200D18D01 /* CodableExtension.swift */; };
+		04B2A5CB2771122600C399E1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D630927653AE200D18D01 /* UIViewExtension.swift */; };
+		04B2A5CC2771122E00C399E1 /* Search.json in Resources */ = {isa = PBXBuildFile; fileRef = 047D630F27653AE200D18D01 /* Search.json */; };
+		04B2A5CD2771122E00C399E1 /* OCSLoader.json in Resources */ = {isa = PBXBuildFile; fileRef = 047D631127653AE200D18D01 /* OCSLoader.json */; };
+		04B2A5CE2771122E00C399E1 /* Details.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AFF6EB27709EFD00501F36 /* Details.json */; };
+		04B2A5CF2771126000C399E1 /* DetailsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437929027668816004E61F5 /* DetailsUseCase.swift */; };
+		04B2A5D02771126600C399E1 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437928D27668816004E61F5 /* Details.swift */; };
+		04B2A5D12771126C00C399E1 /* DetailsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437928F27668816004E61F5 /* DetailsRepository.swift */; };
+		04B2A5D22771128200C399E1 /* N2GoDetailsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437929327668816004E61F5 /* N2GoDetailsRepository.swift */; };
+		04B2A5D32771128400C399E1 /* DetailsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437929427668816004E61F5 /* DetailsDTO.swift */; };
+		04B2A5D7277116D800C399E1 /* R_TV_OS.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2A5D4277114E300C399E1 /* R_TV_OS.generated.swift */; };
+		04B2A5D82771195400C399E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2A58A277104B000C399E1 /* Main.storyboard */; };
+		04B2A5DF27712C4200C399E1 /* tvSerieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B2A5DD27712C4200C399E1 /* tvSerieCollectionViewCell.xib */; };
+		04B43D712771D5300092A1AB /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B43D702771D5300092A1AB /* Details.storyboard */; };
+		04B43D73277204BC0092A1AB /* FocusedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B43D72277204BC0092A1AB /* FocusedButton.swift */; };
+		04B43D79277209EA0092A1AB /* SearchViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B43D78277209EA0092A1AB /* SearchViewControllerExtensions.swift */; };
+		04B43D7A277209EA0092A1AB /* SearchViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B43D78277209EA0092A1AB /* SearchViewControllerExtensions.swift */; };
+		04B43D7D27720A4D0092A1AB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B43D7B27720A4D0092A1AB /* SearchViewController.swift */; };
 		04BD2EBF275D2A5C004A6799 /* OCSResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD2EBE275D2A5C004A6799 /* OCSResult.swift */; };
 		04E779F32760A8CA00C83CB6 /* DetailsEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E779F22760A8CA00C83CB6 /* DetailsEndPoint.swift */; };
 		04F3FBF02763D7E100EDEF81 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F3FBEF2763D7DE00EDEF81 /* SFProDisplay-Regular.ttf */; };
 		04F3FBF12763D7E400EDEF81 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F3FBEE2763D7DE00EDEF81 /* SFProText-Bold.ttf */; };
+		2C1E1517962FE37D7A90978C /* Pods_OCSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF60E339E817E41740579CB /* Pods_OCSTests.framework */; };
+		D5B7C32B62F89E3EA52794A5 /* Pods_OCS_OCSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0490E0CB89EDFA4B54D36D /* Pods_OCS_OCSUITests.framework */; };
+		D6FADEC62D135F7DBFB5B01D /* Pods_OCS_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496C8809E6FEFAA85D7E7E9 /* Pods_OCS_TV.framework */; };
 		E25B158B88BE3EF6091538C3 /* Pods_OCS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8572D87C583E95D217410 /* Pods_OCS.framework */; };
 /* End PBXBuildFile section */
 
@@ -113,7 +174,6 @@
 		043792A827668816004E61F5 /* SerieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerieCollectionViewCell.swift; sourceTree = "<group>"; };
 		043792AA27668816004E61F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043792AB27668816004E61F5 /* SearchSeriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSeriesViewModel.swift; sourceTree = "<group>"; };
-		043792AD27668816004E61F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		043792C427668BBF004E61F5 /* Serie+Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Serie+Stub.swift"; sourceTree = "<group>"; };
 		043792C527668BBF004E61F5 /* SearchRepo+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchRepo+DataSource.swift"; sourceTree = "<group>"; };
 		043792C627668BBF004E61F5 /* UseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
@@ -162,6 +222,19 @@
 		048160ED275A238000179229 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		04AFF6E927708EF600501F36 /* DecodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingTest.swift; sourceTree = "<group>"; };
 		04AFF6EB27709EFD00501F36 /* Details.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Details.json; sourceTree = "<group>"; };
+		04B2A584277104B000C399E1 /* OCS_TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCS_TV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B2A586277104B000C399E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04B2A58B277104B000C399E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B2A58D277104B100C399E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B2A590277104B100C399E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B2A5B72771111C00C399E1 /* OCS-TV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OCS-TV-Info.plist"; sourceTree = SOURCE_ROOT; };
+		04B2A5D4277114E300C399E1 /* R_TV_OS.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R_TV_OS.generated.swift; sourceTree = "<group>"; };
+		04B2A5DC27712C4200C399E1 /* tvSerieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvSerieCollectionViewCell.swift; sourceTree = "<group>"; };
+		04B2A5DD27712C4200C399E1 /* tvSerieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tvSerieCollectionViewCell.xib; sourceTree = "<group>"; };
+		04B43D702771D5300092A1AB /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+		04B43D72277204BC0092A1AB /* FocusedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedButton.swift; sourceTree = "<group>"; };
+		04B43D78277209EA0092A1AB /* SearchViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerExtensions.swift; sourceTree = "<group>"; };
+		04B43D7B27720A4D0092A1AB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		04BD2EBE275D2A5C004A6799 /* OCSResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCSResult.swift; sourceTree = "<group>"; };
 		04E779F22760A8CA00C83CB6 /* DetailsEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsEndPoint.swift; sourceTree = "<group>"; };
 		04F3FBEE2763D7DE00EDEF81 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Bold.ttf"; sourceTree = "<group>"; };
@@ -172,6 +245,9 @@
 		2DAB96147AF334912D567672 /* Pods-OCSTests.release (mock).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCSTests.release (mock).xcconfig"; path = "Target Support Files/Pods-OCSTests/Pods-OCSTests.release (mock).xcconfig"; sourceTree = "<group>"; };
 		340217DD29170C964D7566FA /* Pods-OCS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS.release.xcconfig"; path = "Target Support Files/Pods-OCS/Pods-OCS.release.xcconfig"; sourceTree = "<group>"; };
 		3502E7F6C7259E44DFB02360 /* Pods-OCS.release (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS.release (dev).xcconfig"; path = "Target Support Files/Pods-OCS/Pods-OCS.release (dev).xcconfig"; sourceTree = "<group>"; };
+		4009F50988681D3F91EFF669 /* Pods-OCS_TV.debug (mock).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS_TV.debug (mock).xcconfig"; path = "Target Support Files/Pods-OCS_TV/Pods-OCS_TV.debug (mock).xcconfig"; sourceTree = "<group>"; };
+		430B1B5FFC227CD1FB6504C8 /* Pods-OCS_TV.release (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS_TV.release (dev).xcconfig"; path = "Target Support Files/Pods-OCS_TV/Pods-OCS_TV.release (dev).xcconfig"; sourceTree = "<group>"; };
+		4958167DDD2013CAFDF88ACC /* Pods-OCS_TV.debug (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS_TV.debug (dev).xcconfig"; path = "Target Support Files/Pods-OCS_TV/Pods-OCS_TV.debug (dev).xcconfig"; sourceTree = "<group>"; };
 		49DC091BAEFC540D7DE9AD43 /* Pods-OCSTests.debug (mock).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCSTests.debug (mock).xcconfig"; path = "Target Support Files/Pods-OCSTests/Pods-OCSTests.debug (mock).xcconfig"; sourceTree = "<group>"; };
 		5619799630BA066F57A21663 /* Pods-OCS.debug (mock).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS.debug (mock).xcconfig"; path = "Target Support Files/Pods-OCS/Pods-OCS.debug (mock).xcconfig"; sourceTree = "<group>"; };
 		5782F19D6681DA39572A7DFC /* Pods-OCS.debug (dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS.debug (dev).xcconfig"; path = "Target Support Files/Pods-OCS/Pods-OCS.debug (dev).xcconfig"; sourceTree = "<group>"; };
@@ -179,10 +255,14 @@
 		5FA9E373998DF43E74DB19A4 /* Pods-OCS-OCSUITests.release (stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS-OCSUITests.release (stage).xcconfig"; path = "Target Support Files/Pods-OCS-OCSUITests/Pods-OCS-OCSUITests.release (stage).xcconfig"; sourceTree = "<group>"; };
 		608219E9B6AF716E948D338B /* Pods-OCS-OCSUITests.debug (mock).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS-OCSUITests.debug (mock).xcconfig"; path = "Target Support Files/Pods-OCS-OCSUITests/Pods-OCS-OCSUITests.debug (mock).xcconfig"; sourceTree = "<group>"; };
 		797E3647C8FBDE43DDF79C6C /* Pods-OCS-OCSUITests.debug (stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS-OCSUITests.debug (stage).xcconfig"; path = "Target Support Files/Pods-OCS-OCSUITests/Pods-OCS-OCSUITests.debug (stage).xcconfig"; sourceTree = "<group>"; };
+		8496C8809E6FEFAA85D7E7E9 /* Pods_OCS_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCS_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		858CC11561FAC49C98C86A88 /* Pods-OCS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS.debug.xcconfig"; path = "Target Support Files/Pods-OCS/Pods-OCS.debug.xcconfig"; sourceTree = "<group>"; };
 		93FD53876099ED39CA315D91 /* Pods-OCSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCSTests.debug.xcconfig"; path = "Target Support Files/Pods-OCSTests/Pods-OCSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A526E78127981FE92742153C /* Pods-OCS_TV.release (mock).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS_TV.release (mock).xcconfig"; path = "Target Support Files/Pods-OCS_TV/Pods-OCS_TV.release (mock).xcconfig"; sourceTree = "<group>"; };
+		B1039059CA802E1564B150B8 /* Pods-OCS_TV.debug (stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS_TV.debug (stage).xcconfig"; path = "Target Support Files/Pods-OCS_TV/Pods-OCS_TV.debug (stage).xcconfig"; sourceTree = "<group>"; };
 		B3B4F01E8387EA223E5A43A3 /* Pods-OCSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCSTests.release.xcconfig"; path = "Target Support Files/Pods-OCSTests/Pods-OCSTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC1DF295661EE1AAB356827D /* Pods-OCS-OCSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS-OCSUITests.release.xcconfig"; path = "Target Support Files/Pods-OCS-OCSUITests/Pods-OCS-OCSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BC9D793A326FC0AA433619AA /* Pods-OCS_TV.release (stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS_TV.release (stage).xcconfig"; path = "Target Support Files/Pods-OCS_TV/Pods-OCS_TV.release (stage).xcconfig"; sourceTree = "<group>"; };
 		D3E34C48404D8A5A1F4410DA /* Pods-OCS.release (mock).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS.release (mock).xcconfig"; path = "Target Support Files/Pods-OCS/Pods-OCS.release (mock).xcconfig"; sourceTree = "<group>"; };
 		D9E8572D87C583E95D217410 /* Pods_OCS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EC1B8C85D61E7FA5B35B16 /* Pods-OCS-OCSUITests.release (mock).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCS-OCSUITests.release (mock).xcconfig"; path = "Target Support Files/Pods-OCS-OCSUITests/Pods-OCS-OCSUITests.release (mock).xcconfig"; sourceTree = "<group>"; };
@@ -199,6 +279,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B7C32B62F89E3EA52794A5 /* Pods_OCS_OCSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +287,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1E1517962FE37D7A90978C /* Pods_OCSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +299,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04B2A581277104AF00C399E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FADEC62D135F7DBFB5B01D /* Pods_OCS_TV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0437928A27668816004E61F5 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0437929B27668816004E61F5 /* SearchSeries */,
 				0437928B27668816004E61F5 /* DetailsModule */,
 				0437929927668816004E61F5 /* SeriePlayer */,
-				0437929B27668816004E61F5 /* SearchSeries */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -278,9 +368,10 @@
 		0437929527668816004E61F5 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
-				0437929627668816004E61F5 /* Details.storyboard */,
 				0437929727668816004E61F5 /* DetailsViewModel.swift */,
 				0437929827668816004E61F5 /* DetailsViewController.swift */,
+				04B43D75277207B50092A1AB /* tvOS */,
+				04B43D74277207A20092A1AB /* iOS */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -341,12 +432,11 @@
 		043792A527668816004E61F5 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
-				043792A627668816004E61F5 /* SearchViewController.swift */,
-				043792A727668816004E61F5 /* SerieCollectionViewCell.xib */,
 				043792A827668816004E61F5 /* SerieCollectionViewCell.swift */,
-				043792A927668816004E61F5 /* Main.storyboard */,
 				043792AB27668816004E61F5 /* SearchSeriesViewModel.swift */,
-				043792AC27668816004E61F5 /* Main.strings */,
+				04B43D78277209EA0092A1AB /* SearchViewControllerExtensions.swift */,
+				04B43D77277207E40092A1AB /* iOS */,
+				04B43D76277207DB0092A1AB /* tvOS */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -439,6 +529,7 @@
 				047C9673275902D000EF7D9D /* OCS */,
 				043792C227668BBF004E61F5 /* OCSTests */,
 				043792FB27668CED004E61F5 /* OCSUITests */,
+				04B2A585277104B000C399E1 /* OCS_TV */,
 				047C9672275902D000EF7D9D /* Products */,
 				3D368AF9BE1C1927DFD9CF38 /* Pods */,
 				57B2D9990F40F25CB3D4068F /* Frameworks */,
@@ -451,6 +542,7 @@
 				047C9671275902D000EF7D9D /* OCS.app */,
 				043792DB27668BD8004E61F5 /* OCSUITests.xctest */,
 				043792EE27668BE6004E61F5 /* OCSTests.xctest */,
+				04B2A584277104B000C399E1 /* OCS_TV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -545,6 +637,7 @@
 			isa = PBXGroup;
 			children = (
 				048160ED275A238000179229 /* R.generated.swift */,
+				04B2A5D4277114E300C399E1 /* R_TV_OS.generated.swift */,
 			);
 			path = Autogenerated;
 			sourceTree = SOURCE_ROOT;
@@ -555,6 +648,55 @@
 				04AFF6E927708EF600501F36 /* DecodingTest.swift */,
 			);
 			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		04B2A585277104B000C399E1 /* OCS_TV */ = {
+			isa = PBXGroup;
+			children = (
+				04B2A5B72771111C00C399E1 /* OCS-TV-Info.plist */,
+				04B2A586277104B000C399E1 /* AppDelegate.swift */,
+				04B2A58D277104B100C399E1 /* Assets.xcassets */,
+				04B2A58F277104B100C399E1 /* LaunchScreen.storyboard */,
+				04B43D72277204BC0092A1AB /* FocusedButton.swift */,
+			);
+			path = OCS_TV;
+			sourceTree = "<group>";
+		};
+		04B43D74277207A20092A1AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0437929627668816004E61F5 /* Details.storyboard */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		04B43D75277207B50092A1AB /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				04B43D702771D5300092A1AB /* Details.storyboard */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		04B43D76277207DB0092A1AB /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				04B2A5DC27712C4200C399E1 /* tvSerieCollectionViewCell.swift */,
+				04B2A5DD27712C4200C399E1 /* tvSerieCollectionViewCell.xib */,
+				04B2A58A277104B000C399E1 /* Main.storyboard */,
+				04B43D7B27720A4D0092A1AB /* SearchViewController.swift */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		04B43D77277207E40092A1AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				043792A927668816004E61F5 /* Main.storyboard */,
+				043792A727668816004E61F5 /* SerieCollectionViewCell.xib */,
+				043792A627668816004E61F5 /* SearchViewController.swift */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		04F3FBED2763D74A00EDEF81 /* Ressources */ = {
@@ -596,6 +738,12 @@
 				2DAB96147AF334912D567672 /* Pods-OCSTests.release (mock).xcconfig */,
 				F977F391F1398CA753C38D80 /* Pods-OCSTests.release (dev).xcconfig */,
 				0725DDA40A9FEC73C5D8E1BF /* Pods-OCSTests.release (stage).xcconfig */,
+				4009F50988681D3F91EFF669 /* Pods-OCS_TV.debug (mock).xcconfig */,
+				4958167DDD2013CAFDF88ACC /* Pods-OCS_TV.debug (dev).xcconfig */,
+				B1039059CA802E1564B150B8 /* Pods-OCS_TV.debug (stage).xcconfig */,
+				A526E78127981FE92742153C /* Pods-OCS_TV.release (mock).xcconfig */,
+				430B1B5FFC227CD1FB6504C8 /* Pods-OCS_TV.release (dev).xcconfig */,
+				BC9D793A326FC0AA433619AA /* Pods-OCS_TV.release (stage).xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -606,6 +754,7 @@
 				D9E8572D87C583E95D217410 /* Pods_OCS.framework */,
 				DD0490E0CB89EDFA4B54D36D /* Pods_OCS_OCSUITests.framework */,
 				DCF60E339E817E41740579CB /* Pods_OCSTests.framework */,
+				8496C8809E6FEFAA85D7E7E9 /* Pods_OCS_TV.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -617,9 +766,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043792E327668BD8004E61F5 /* Build configuration list for PBXNativeTarget "OCSUITests" */;
 			buildPhases = (
+				9BF1C7AE4FDFF1CC399233BE /* [CP] Check Pods Manifest.lock */,
 				043792D727668BD8004E61F5 /* Sources */,
 				043792D827668BD8004E61F5 /* Frameworks */,
 				043792D927668BD8004E61F5 /* Resources */,
+				DAD135B4B17933C73F56BDAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -635,6 +786,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043792F427668BE6004E61F5 /* Build configuration list for PBXNativeTarget "OCSTests" */;
 			buildPhases = (
+				54475DC7F2A2B48F56E31234 /* [CP] Check Pods Manifest.lock */,
 				043792EA27668BE6004E61F5 /* Sources */,
 				043792EB27668BE6004E61F5 /* Frameworks */,
 				043792EC27668BE6004E61F5 /* Resources */,
@@ -670,6 +822,26 @@
 			productReference = 047C9671275902D000EF7D9D /* OCS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		04B2A583277104AF00C399E1 /* OCS_TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B2A598277104B100C399E1 /* Build configuration list for PBXNativeTarget "OCS_TV" */;
+			buildPhases = (
+				039C5582CB6BEFE272B61CF0 /* [CP] Check Pods Manifest.lock */,
+				04B2A5AF27710EEE00C399E1 /* Run R Script */,
+				04B2A580277104AF00C399E1 /* Sources */,
+				04B2A581277104AF00C399E1 /* Frameworks */,
+				04B2A582277104AF00C399E1 /* Resources */,
+				EBA1324C617E235C6A8B233E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCS_TV;
+			productName = OCS_TV;
+			productReference = 04B2A584277104B000C399E1 /* OCS_TV.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -691,6 +863,9 @@
 					047C9670275902D000EF7D9D = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					04B2A583277104AF00C399E1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = 047C966C275902D000EF7D9D /* Build configuration list for PBXProject "OCS" */;
@@ -708,6 +883,7 @@
 			projectRoot = "";
 			targets = (
 				047C9670275902D000EF7D9D /* OCS */,
+				04B2A583277104AF00C399E1 /* OCS_TV */,
 				043792DA27668BD8004E61F5 /* OCSUITests */,
 				043792ED27668BE6004E61F5 /* OCSTests */,
 			);
@@ -733,10 +909,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043792BD27668816004E61F5 /* SerieCollectionViewCell.xib in Resources */,
-				043792C127668816004E61F5 /* Main.strings in Resources */,
 				043792BF27668816004E61F5 /* Main.storyboard in Resources */,
 				04F3FBF02763D7E100EDEF81 /* SFProDisplay-Regular.ttf in Resources */,
+				043A0A892772106700DECD0D /* SerieCollectionViewCell.xib in Resources */,
 				047D631F27653AE200D18D01 /* OCSLoader.json in Resources */,
 				048160E3275A19E000179229 /* OCS.strings in Resources */,
 				047C9681275902D200EF7D9D /* LaunchScreen.storyboard in Resources */,
@@ -748,9 +923,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04B2A582277104AF00C399E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2A59E277107C900C399E1 /* OCS.strings in Resources */,
+				04B2A5D82771195400C399E1 /* Main.storyboard in Resources */,
+				04B2A5DF27712C4200C399E1 /* tvSerieCollectionViewCell.xib in Resources */,
+				04B2A5CC2771122E00C399E1 /* Search.json in Resources */,
+				04B2A5CE2771122E00C399E1 /* Details.json in Resources */,
+				04B2A5CD2771122E00C399E1 /* OCSLoader.json in Resources */,
+				04B2A5B6277110D600C399E1 /* SFProText-Bold.ttf in Resources */,
+				04B43D712771D5300092A1AB /* Details.storyboard in Resources */,
+				04B2A591277104B100C399E1 /* LaunchScreen.storyboard in Resources */,
+				04B2A5B82771117A00C399E1 /* Assets.xcassets in Resources */,
+				04B2A5B5277110D600C399E1 /* SFProDisplay-Regular.ttf in Resources */,
+				04B2A58E277104B100C399E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		039C5582CB6BEFE272B61CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCS_TV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0439510A275909AD00C73753 /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -791,6 +1007,27 @@
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Autogenerated/R.generated.swift\"\n";
 		};
+		04B2A5AF27710EEE00C399E1 /* Run R Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "Run R Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/Autogenerated/R_TV_OS.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Autogenerated/R_TV_OS.generated.swift\"\n";
+		};
 		2383C30FDAAC90CFEE9E0F4F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -806,6 +1043,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCS/Pods-OCS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54475DC7F2A2B48F56E31234 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		81BC3C88EA61FF6C46DC3E7E /* [CP] Check Pods Manifest.lock */ = {
@@ -828,6 +1087,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF1C7AE4FDFF1CC399233BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCS-OCSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAD135B4B17933C73F56BDAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCS-OCSUITests/Pods-OCS-OCSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCS-OCSUITests/Pods-OCS-OCSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCS-OCSUITests/Pods-OCS-OCSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA1324C617E235C6A8B233E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCS_TV/Pods-OCS_TV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCS_TV/Pods-OCS_TV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCS_TV/Pods-OCS_TV-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -884,6 +1199,7 @@
 				047D631527653AE200D18D01 /* UIImageViewExtension.swift in Sources */,
 				04BD2EBF275D2A5C004A6799 /* OCSResult.swift in Sources */,
 				043792C027668816004E61F5 /* SearchSeriesViewModel.swift in Sources */,
+				04B43D79277209EA0092A1AB /* SearchViewControllerExtensions.swift in Sources */,
 				047D632227653AE200D18D01 /* LoadingView.swift in Sources */,
 				047C9675275902D000EF7D9D /* AppDelegate.swift in Sources */,
 				048160EE275A238100179229 /* R.generated.swift in Sources */,
@@ -904,6 +1220,59 @@
 				043792AE27668816004E61F5 /* Details.swift in Sources */,
 				048160CC275A122B00179229 /* APIClient.swift in Sources */,
 				048160D2275A122B00179229 /* ApiRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2A580277104AF00C399E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2A5A32771084A00C399E1 /* AppStoryboard.swift in Sources */,
+				04B2A5C92771122600C399E1 /* UrlRequestExtension.swift in Sources */,
+				04B2A5B3277110B900C399E1 /* PlayerViewModel.swift in Sources */,
+				04B2A5C72771121D00C399E1 /* JsonDecoderExtension.swift in Sources */,
+				04B2A5BD2771121000C399E1 /* SearchEndPoint.swift in Sources */,
+				04B2A5D02771126600C399E1 /* Details.swift in Sources */,
+				04B2A59C2771069500C399E1 /* MainCoordinator.swift in Sources */,
+				04B2A5C62771121D00C399E1 /* APIClient.swift in Sources */,
+				04B2A5A22771083A00C399E1 /* UIViewControllerExtension.swift in Sources */,
+				04B2A5BB277111FD00C399E1 /* OCSSearchSeriesRepository.swift in Sources */,
+				04B2A59F2771081200C399E1 /* Coordinator.swift in Sources */,
+				043A0A8A277212B000DECD0D /* tvSerieCollectionViewCell.swift in Sources */,
+				04B2A5B9277111A200C399E1 /* LoadingView.swift in Sources */,
+				04B2A5B027710FC400C399E1 /* DetailsViewModel.swift in Sources */,
+				04B2A5A52771087400C399E1 /* DomainModel.swift in Sources */,
+				04B2A5C82771121D00C399E1 /* EndPointType.swift in Sources */,
+				04B2A5CF2771126000C399E1 /* DetailsUseCase.swift in Sources */,
+				04B2A5A9277108A700C399E1 /* SerieDTO.swift in Sources */,
+				04B2A5B4277110C500C399E1 /* UILabelExtension.swift in Sources */,
+				04B2A5BA277111EA00C399E1 /* SizeHelper.swift in Sources */,
+				04B2A5C52771121D00C399E1 /* OCSResult.swift in Sources */,
+				04B2A5D12771126C00C399E1 /* DetailsRepository.swift in Sources */,
+				04B2A5AD2771090500C399E1 /* UIImageViewExtension.swift in Sources */,
+				04B2A5AE27710EC700C399E1 /* DetailsViewController.swift in Sources */,
+				04B2A59B2771068A00C399E1 /* SearchSeriesViewModel.swift in Sources */,
+				04B2A5A12771082800C399E1 /* Font.swift in Sources */,
+				04B2A5C22771121D00C399E1 /* ErrorHandler.swift in Sources */,
+				04B2A5BE2771121300C399E1 /* DetailsEndPoint.swift in Sources */,
+				04B2A5C42771121D00C399E1 /* ApiRequestHandler.swift in Sources */,
+				04B43D7A277209EA0092A1AB /* SearchViewControllerExtensions.swift in Sources */,
+				04B2A5D32771128400C399E1 /* DetailsDTO.swift in Sources */,
+				04B2A5CA2771122600C399E1 /* CodableExtension.swift in Sources */,
+				04B2A5A82771089D00C399E1 /* SearchSeriesUseCase.swift in Sources */,
+				04B43D73277204BC0092A1AB /* FocusedButton.swift in Sources */,
+				04B2A5C32771121D00C399E1 /* NetworkParameters.swift in Sources */,
+				04B2A5A02771081B00C399E1 /* Serie.swift in Sources */,
+				04B43D7D27720A4D0092A1AB /* SearchViewController.swift in Sources */,
+				04B2A587277104B000C399E1 /* AppDelegate.swift in Sources */,
+				04B2A5CB2771122600C399E1 /* UIViewExtension.swift in Sources */,
+				04B2A5B127710FCF00C399E1 /* SearchSeriesRepository.swift in Sources */,
+				04B2A5AB277108C000C399E1 /* StringExtension.swift in Sources */,
+				04B2A5D22771128200C399E1 /* N2GoDetailsRepository.swift in Sources */,
+				04B2A5D7277116D800C399E1 /* R_TV_OS.generated.swift in Sources */,
+				04B2A5AA277108AF00C399E1 /* DataModel.swift in Sources */,
+				04B2A59D2771074F00C399E1 /* SerieCollectionViewCell.swift in Sources */,
+				04B2A5A62771088300C399E1 /* UIcollectionViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,14 +1300,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		043792AC27668816004E61F5 /* Main.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				043792AD27668816004E61F5 /* fr */,
-			);
-			name = Main.strings;
-			sourceTree = "<group>";
-		};
 		047C967F275902D200EF7D9D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -958,11 +1319,28 @@
 			name = OCS.strings;
 			sourceTree = "<group>";
 		};
+		04B2A58A277104B000C399E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B2A58B277104B000C399E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B2A58F277104B100C399E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B2A590277104B100C399E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		043792E427668BD8004E61F5 /* Debug (MOCK) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608219E9B6AF716E948D338B /* Pods-OCS-OCSUITests.debug (mock).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1039,6 +1417,7 @@
 		};
 		043792E527668BD8004E61F5 /* Debug (DEV) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6C52A864960AB47F92FFF9 /* Pods-OCS-OCSUITests.debug (dev).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1115,6 +1494,7 @@
 		};
 		043792E627668BD8004E61F5 /* Debug (STAGE) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797E3647C8FBDE43DDF79C6C /* Pods-OCS-OCSUITests.debug (stage).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1191,6 +1571,7 @@
 		};
 		043792E727668BD8004E61F5 /* Release (MOCK) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9EC1B8C85D61E7FA5B35B16 /* Pods-OCS-OCSUITests.release (mock).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1261,6 +1642,7 @@
 		};
 		043792E827668BD8004E61F5 /* Release (DEV) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E204DC5A98C2C63B24BE6B43 /* Pods-OCS-OCSUITests.release (dev).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1331,6 +1713,7 @@
 		};
 		043792E927668BD8004E61F5 /* Release (STAGE) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA9E373998DF43E74DB19A4 /* Pods-OCS-OCSUITests.release (stage).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1401,6 +1784,7 @@
 		};
 		043792F527668BE6004E61F5 /* Debug (MOCK) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DC091BAEFC540D7DE9AD43 /* Pods-OCSTests.debug (mock).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1478,6 +1862,7 @@
 		};
 		043792F627668BE6004E61F5 /* Debug (DEV) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A2CCBCBFCFEE290BCD72F2 /* Pods-OCSTests.debug (dev).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1555,6 +1940,7 @@
 		};
 		043792F727668BE6004E61F5 /* Debug (STAGE) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BBDBD488007FF6F5BABA45 /* Pods-OCSTests.debug (stage).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1632,6 +2018,7 @@
 		};
 		043792F827668BE6004E61F5 /* Release (MOCK) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAB96147AF334912D567672 /* Pods-OCSTests.release (mock).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1703,6 +2090,7 @@
 		};
 		043792F927668BE6004E61F5 /* Release (DEV) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F977F391F1398CA753C38D80 /* Pods-OCSTests.release (dev).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1774,6 +2162,7 @@
 		};
 		043792FA27668BE6004E61F5 /* Release (STAGE) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0725DDA40A9FEC73C5D8E1BF /* Pods-OCSTests.release (stage).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2359,6 +2748,474 @@
 			};
 			name = "Release (STAGE)";
 		};
+		04B2A592277104B100C399E1 /* Debug (MOCK) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4009F50988681D3F91EFF669 /* Pods-OCS_TV.debug (mock).xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OCS-TV-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zakaria.OCS-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = "Debug (MOCK)";
+		};
+		04B2A593277104B100C399E1 /* Debug (DEV) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4958167DDD2013CAFDF88ACC /* Pods-OCS_TV.debug (dev).xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OCS-TV-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zakaria.OCS-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = "Debug (DEV)";
+		};
+		04B2A594277104B100C399E1 /* Debug (STAGE) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1039059CA802E1564B150B8 /* Pods-OCS_TV.debug (stage).xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OCS-TV-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zakaria.OCS-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = "Debug (STAGE)";
+		};
+		04B2A595277104B100C399E1 /* Release (MOCK) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A526E78127981FE92742153C /* Pods-OCS_TV.release (mock).xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OCS-TV-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zakaria.OCS-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (MOCK)";
+		};
+		04B2A596277104B100C399E1 /* Release (DEV) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430B1B5FFC227CD1FB6504C8 /* Pods-OCS_TV.release (dev).xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OCS-TV-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zakaria.OCS-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (DEV)";
+		};
+		04B2A597277104B100C399E1 /* Release (STAGE) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9D793A326FC0AA433619AA /* Pods-OCS_TV.release (stage).xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OCS-TV-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zakaria.OCS-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (STAGE)";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2410,6 +3267,19 @@
 				047C969D275902D300EF7D9D /* Release (MOCK) */,
 				047E7388275BA98E00824A07 /* Release (DEV) */,
 				047E7390275BA9C200824A07 /* Release (STAGE) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release (MOCK)";
+		};
+		04B2A598277104B100C399E1 /* Build configuration list for PBXNativeTarget "OCS_TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B2A592277104B100C399E1 /* Debug (MOCK) */,
+				04B2A593277104B100C399E1 /* Debug (DEV) */,
+				04B2A594277104B100C399E1 /* Debug (STAGE) */,
+				04B2A595277104B100C399E1 /* Release (MOCK) */,
+				04B2A596277104B100C399E1 /* Release (DEV) */,
+				04B2A597277104B100C399E1 /* Release (STAGE) */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release (MOCK)";

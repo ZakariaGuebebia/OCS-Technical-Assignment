@@ -19,9 +19,6 @@ struct ServerParameters {
 
     static let stagingParameters: ServerParameters = ServerParameters(
         baseURL: "https://api.ocs.fr")
-
-    static let prodParameters: ServerParameters = ServerParameters(
-        baseURL: "https://api.ocs.fr")
     
     static var headers: [String: String]?
     

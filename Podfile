@@ -22,5 +22,16 @@ target 'OCS' do
   target 'OCSUITests' do
     # Pods for testing
   end
+  
+  target 'OCS_TV' do
+    platform :tvos, '15.0'
+    # Pods for OCS_TV
+    pod 'SDWebImage', '~> 5.2.5'
+    pod 'Alamofire', '~> 5.4.1'
+    pod 'SwiftLint', '~> 0.43.1'
+    pod 'R.swift', '5.0.3'
+    pod 'lottie-ios', '~> 3.2.3'
+    # Pods for testing
+  end
 
 end
