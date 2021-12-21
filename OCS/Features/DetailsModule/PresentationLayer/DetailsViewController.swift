@@ -36,7 +36,8 @@ class DetailsViewController: UIViewController {
         subtitleLabel.setAttributedText(text: viewModel?.serie?.subtitle ?? "",
                                         lineSpace: 0, font: OCSFonts().sfProTextBoldFontName,
                                         size: 18, forgroundColor: R.color.primaryTextColor())
-        fullScreenImageView.setImage(withString: viewModel?.serie?.fullscreenimageurl ?? "",
+            // image base url is unknown i always get 404 error when trying to fetch the image using the "https://api.ocs.fr/apps/v2" + fullscreenimageurl
+        fullScreenImageView.setImage(withString: ApiClient.imagesBaseURL()+(viewModel?.serie?.fullscreenimageurl ?? ""),
                                      placeholderImage: UIImage(named: "ic-OCS_logo"))
 #if os(tvOS)
         enableTvScroll()

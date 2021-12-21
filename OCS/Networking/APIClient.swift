@@ -12,6 +12,9 @@ class ApiClient: NSObject {
     class func baseURL() -> String {
         return self.serverParameters().baseURL
     }
+    class func imagesBaseURL() -> String {
+        return self.serverParameters().imagesBaseURL
+    }
     
     fileprivate class func serverParameters() -> ServerParameters {
 #if os(iOS)
@@ -27,7 +30,7 @@ class ApiClient: NSObject {
 #else
         return ServerParameters.devParameters
 #endif
-        
+
     }
     
 }

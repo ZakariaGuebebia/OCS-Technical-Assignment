@@ -10,15 +10,16 @@ import Foundation
 struct ServerParameters {
     
     let baseURL: String
+    let imagesBaseURL: String
 
     static let devParameters: ServerParameters = ServerParameters(
-        baseURL: "https://api.ocs.fr")
+        baseURL: "https://api.ocs.fr", imagesBaseURL: "https://api.ocs.fr/apps/v2")
 
     static let mockParameters: ServerParameters = ServerParameters(
-        baseURL: "https://api.ocs.fr")
+        baseURL: "https://api.ocs.fr", imagesBaseURL: "https://api.ocs.fr/apps/v2")
 
     static let stagingParameters: ServerParameters = ServerParameters(
-        baseURL: "https://api.ocs.fr")
+        baseURL: "https://api.ocs.fr", imagesBaseURL: "https://api.ocs.fr/apps/v2")
     
     static var headers: [String: String]?
     

@@ -21,7 +21,8 @@ class tvSerieCollectionViewCell: UICollectionViewCell {
     func configureCell(serie: Serie) {
         self.titleLabel.setAttributedText(text: serie.title ?? "", lineSpace: 0, font: OCSFonts().sfProTextBoldFontName, size: 12, forgroundColor: R.color.primaryTextColor())
         self.subtitleLabel.setAttributedText(text: serie.subtitle ?? "", lineSpace: 0, font: OCSFonts().sfProDisplayRegular, size: 10, forgroundColor: R.color.primaryTextColor())
-        self.posterImageView.setImage(withString: ApiClient.baseURL()+(serie.imageurl ?? ""), placeholderImage: UIImage(named: "ic-placeHolder"))
+            // image base url is unknown i always get 404 error when trying to fetch the image using the "https://api.ocs.fr/apps/v2" + imageurl
+        self.posterImageView.setImage(withString: ApiClient.imagesBaseURL()+(serie.imageurl ?? ""), placeholderImage: UIImage(named: "ic-placeHolder"))
     }
 
 }
