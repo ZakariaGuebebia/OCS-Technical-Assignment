@@ -1,5 +1,8 @@
 # About OCS App 🍊🍿🎬
+
 Hello there, In this project I tried showcasing how to build an iOS Application with clean architecture and MVVM-C using Combine and UIkit. This App is using the OCS API as a remote data source.
+
+The Thing that triggered me the most, is to make this app compatible with tvOS, since it's my first time exploring iOS developement from tvOS perspective.
 
 This side project was delivered in the context of one-week assignment.
 
@@ -13,7 +16,7 @@ In this App you will mainly find:
 * UnitTest/UITest
 * Storyboards
 * Localisation
-* iPad Size adaptation
+* iPhone, iPad and tvOS Compatibility
 * Dark Mode Support
 
 # Screenshots 📷
@@ -38,9 +41,8 @@ I made a diagram to show the flow of the data between the three layers(data, dom
 
 # To be added ➕
 * more testing
-* TV OS version
 
-<br />
+<br/>
 
 ## issues 🚩
 * base url for images is unkown
